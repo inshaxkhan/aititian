@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test:db": "node scripts/test-db.js",
-    "seed:db": "node scripts/seed-database.js"
+    "seed:db": "node scripts/seed-database.js",
+    "setup:check": "node scripts/setup-check.js"
   },
   "dependencies": {
     "@next-auth/mongodb-adapter": "^1.1.3",
